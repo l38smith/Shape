@@ -32,7 +32,6 @@ public class ShapeDemo {
 		   System.out.println(str);
 		   System.out.println();
 		break;
-		
 		   }
 		   case 2:{
 		   double side;
@@ -99,19 +98,15 @@ public class ShapeDemo {
 		   System.out.println();
 	    break;
 		   }
-		  
-		   }
-	  
-	       }
-	   
-	   else
+		  	}
+	         }
+	 	    else
 		   System.out.println("Incorrect entry, try again.");
 	       displayMenu();
 	       choice=input.nextInt();
 	   
    }
-	
-   }
+	}
 	public static void displayMenu()
 	{
 		System.out.println("Enter 1 for a Circle");
@@ -120,5 +115,5 @@ public class ShapeDemo {
 		System.out.println("Enter 4 for a Triangle");
 		System.out.println("Enter 5 to Exit");
 		
-	}
+ }
 }

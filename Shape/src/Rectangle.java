@@ -48,14 +48,14 @@ public double getVolume()
 public String toString() 
 {
 	return String.format("%s%n%s: %.2f%n%s: %.2f%n%s: %.2f%n%s: %.2f%n%s: %.2f",
-			              super.toString(),
-			             "Its length is", getLength(),
-                         "Its height is", getHeight(),
-                         "Its width is" , getWidth(),
-			             "AREA", getArea(),
-                         "VOLUME", getVolume());
+		    super.toString(),
+			"Its length is", getLength(),
+            "Its height is", getHeight(),
+            "Its width is" , getWidth(),
+            "AREA", getArea(),
+            "VOLUME", getVolume());
 }
-}
+ }
 
 
 

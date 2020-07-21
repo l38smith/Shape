@@ -42,11 +42,11 @@ public double getVolume()
 public String toString() 
 {
 	return String.format(" %s%n%s: %.2f%n%s: %.2f%n%s: %.2f%n%s: %.2f%n%s: %.2f",
-			              super.toString(),
-			             "Its length is", getLength(),
-                          "Its base is" , getBase(),
-                          "Its height is", getHeight(),
-                          "AREA", getArea(),
-                          "VOLUME", getVolume());
-}
+		   super.toString(),
+		   "Its length is", getLength(),
+           "Its base is" , getBase(),
+           "Its height is", getHeight(),
+           "AREA", getArea(),
+           "VOLUME", getVolume());
+ }
 }
